@@ -5,6 +5,7 @@
 ## Líbrerias a instalar:
 
 ``` bash
+# have  python enviroment ready
 # install semtiment analize dependence
 $ pip install -U textblob
 
