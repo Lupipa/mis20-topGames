@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # README
 
 # BackEnd - Server Python
@@ -17,32 +15,44 @@ $ pip install tweepy
 ```
 
 Orden ejecución ficheros:
-Ejecutar el archivo 
+``` bash
+# Ejecutar el archivo 
   rec3djuegos.py
-Esto nos creará un fichero TopGames.txt
+# Esto nos creará un fichero 'TopGames.txt'
 Abrir el fichero TopGames.txt y modificarlo si se cree necesario
-Ejecutar el archivo 
+# Ejecutar el archivo. Server runs in port 5000 by default
   topgames.py
-Acceder a 
+# Acceder a 
   https://twitter.com/top_mes para ver los resultados
+```
 
 # Front End -Web topgames
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# install framewrok VueCli
+npm i -g vue-cli
+# install 
+# Initialize a BootstrapVue project in the directory 'my-project'
+vue init bootstrap-vue/webpack-simple my-project
+# Change into the directory
+cd my-project
+# Install dependencies
 npm install
-
-# serve with hot reload at localhost:8080
+# install Vue-Router dependence
+npm install vue-router
+# install axios dependence
+npm install axios
+# install vue-tweet-embed
+npm install vue-tweet-embed
+# Fire up the dev server with HMR
 npm run dev
 
 # build for production with minification
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 =======
 # mis20-topGames
 Proyecto para la asignatura de Modelaje de Interacción Social 2.0
->>>>>>> 9b6ccf90d1a9de71f17211a747339f57d9951c6c
