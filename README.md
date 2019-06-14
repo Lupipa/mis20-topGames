@@ -1,4 +1,29 @@
 <<<<<<< HEAD
+
+# BackEnd - Server Python
+
+## Líbrerias a instalar:
+
+``` bash
+# install semtiment analize dependence
+$ pip install -U textblob
+
+$ python -m textblob.download_corpora
+
+# install twitter dependence
+$ pip install tweepy
+
+
+# Orden ejecución ficheros
+Ejecutar el archivo 
+## rec3djuegos.py
+Esto nos creará un fichero TopGames.txt
+Abrir el fichero TopGames.txt y modificarlo si se cree necesario
+Ejecutar el archivo 
+##topgames.py
+Acceder a 
+##https://twitter.com/top_mes para ver los resultados
+
 # Front End -Web topgames
 
 ## Build Setup
